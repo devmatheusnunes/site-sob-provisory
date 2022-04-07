@@ -1,0 +1,23 @@
+body {
+    height: 1000px;
+}
+.menu {
+    position: sticky;
+    top: 0;
+}
+
+.menu .menu-items ul {
+    justify-content: space-around;
+    background-color: #FFD811;
+    font-size: 3vh;
+    color: #FFFFFF;
+}
+
+.menu .menu-items ul li {
+    cursor: pointer;
+}
+
+.menu .menu-items ul li:hover {
+    color: #180081;
+    transition-duration: 0.4s;
+}

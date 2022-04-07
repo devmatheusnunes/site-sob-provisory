@@ -1,0 +1,34 @@
+.header img {
+    max-width: 60vw;
+    padding-top: 25%;
+}
+
+.menu {
+    justify-content: space-between;
+    margin-left: 1vw;
+    margin-right: 1vw;
+    position: sticky;
+    top: 0;
+}
+
+.menu .menu-logo img {
+    max-width: 5vw;
+    padding: 2vh;
+}
+
+.menu .menu-items ul {
+    background-color: #FFD811;
+    margin-top: 3vh;
+    color: #FFFFFF;
+}
+
+.menu .menu-items ul li {
+    text-transform: uppercase;
+    margin-left: 1vw;
+    cursor: pointer;
+}
+
+.menu .menu-items ul li:hover {
+    color: #180081;
+    transition-duration: 0.4s;
+}
