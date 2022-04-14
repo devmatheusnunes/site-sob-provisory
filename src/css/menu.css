@@ -1,3 +1,6 @@
+body {
+    overflow-x: hidden;
+}
 .menu {
     background-color: #180081;
     justify-content: space-between;

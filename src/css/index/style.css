@@ -1,3 +1,7 @@
+body {
+    overflow-x: hidden;
+}
+
 header img {
     max-width: 65vw;
     margin-top: 35vh;
