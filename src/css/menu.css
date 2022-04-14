@@ -61,6 +61,7 @@ body {
     }
     .nav-list {
         background-color: #180081;
+        display: none;
         position: absolute;
         padding: 2vh;
         top: 8vh;
@@ -87,6 +88,7 @@ body {
 
 .nav-list.active {
     transform: translateX(0);
+    display: block;
 }
 
 @keyframes navLinkFade {
