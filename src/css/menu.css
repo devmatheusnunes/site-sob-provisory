@@ -58,6 +58,7 @@ body {
 @media (max-width: 980px) {
     body {
         overflow-x: hidden;
+        display: inline-block;
     }
     .nav-list {
         background-color: #180081;
