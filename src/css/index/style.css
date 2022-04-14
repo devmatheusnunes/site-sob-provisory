@@ -1,0 +1,41 @@
+header img {
+    max-width: 65vw;
+    margin-top: 35vh;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 50px;
+    margin-top: 38vh;
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+main .title {
+    text-transform: uppercase;
+    font-size: 4vh;
+}
+
+main .text {
+    padding: 3vw;
+    text-align: justify;
+}
+
+main .about, main .store, main .media {
+    margin-top: 8vh;
+    padding: 2vw;
+}
+
+main .about .btn, main .store .btn {
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+main .media a img {
+    max-width: 55px;
+}
+
+main .media .content {
+    margin-top: 8vh;
+    justify-content: space-around;
+}

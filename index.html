@@ -4,85 +4,100 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>SuperÓtica Brasil</title>
-    <!--LINK CSS-->
-    <link rel="stylesheet" href="src/css/resert.css">
-    <link rel="stylesheet" href="src/css/geral.css">
-    <link rel="stylesheet" href="src/css/index/header.css">
-    <link rel="stylesheet" href="src/css/index/contents.css">
-    <link rel="stylesheet" href="src/css/footer.css">
+    <title>Document</title>
+    <!--LINK CSS GERAL-->
+    <link rel="stylesheet" href="/src/css/resert.css">
+    <link rel="stylesheet" href="/src/css/template.css">
+    <link rel="stylesheet" href="/src/css/menu.css">
+    <link rel="stylesheet" href="/src/css/footer.css">
+    <!--LINK CSS PAGE-->
+    <link rel="stylesheet" href="/src/css/index/style.css">
+    <link rel="stylesheet" href="/src/css/index/responsive.css">
     <!--LINK FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="menu centralize">
-        <a class="menu-logo" href="/index.html">
-            <img src="/src/img/logos/logo-emblema.png" alt="logo-emblema">
+    <nav class="menu centralize">
+        <a class="logo" href="/">
+            <img src="/src/img/logos/logo-emblema-yellow.png" alt="logo-emblema-yellow">
         </a>
-        <div class="menu-items">
-            <ul class="centralize">
-                <li>Sobre</li>
-                <li>Lojas</li>
-                <li>Contato</li>
-            </ul>
+        <div class="mobile-menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
         </div>
-    </div>
-    <div class="header centralize sides">
-        <img src="/src/img/logos/logo-horizontal.png" alt="logo_horizontal">
-    </div>
-    <div class="contents sides">
-        <div class="about centralize">
-            <div>
-                <div class="title">Sobre Nós</div>
-                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nulla culpa, repudiandae corporis praesentium rem aut consequatur quo eius fugit eum, numquam maxime! Commodi mollitia sint error. Vitae, reprehenderit cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nulla culpa, repudiandae corporis praesentium rem aut consequatur quo eius fugit eum, numquam maxime! Commodi mollitia sint error. Vitae, reprehenderit cumque?</div>
+        <ul class="nav-list">
+            <li><a href="/">Home</a></li>
+            <li><a href="/about.html">Sobre</a></li>
+            <li><a href="/stores.html">Lojas</a></li>
+            <li><a href="/contact.html">Contato</a></li>
+        </ul>
+    </nav>
+    <header class="centralize">
+        <img src="src/img/logos/logo-horizontal.png" alt="logo-horizontal">
+    </header>
+    <main>
+        <div class="content centralize">
+            <div class="about">
+                <p class="title centralize">Quem Somos</p>
+                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+                <a href="/about.html" class="btn centralize">Conheça nossa história</a>
             </div>
-            <img src="/src/img/content/people-lifestyle.png" alt="about-img">
-        </div>
-        <div class="store centralize">
-            <img src="/src/img/content/loja-asanorte.jpg" alt="about-img">
-            <div>
-                <div class="title">Nossas Lojas</div>
-                <div class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nulla culpa, repudiandae corporis praesentium rem aut consequatur quo eius fugit eum, numquam maxime! Commodi mollitia sint error. Vitae, reprehenderit cumque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum, nulla culpa, repudiandae corporis praesentium rem aut consequatur quo eius fugit eum, numquam maxime! Commodi mollitia sint error. Vitae, reprehenderit cumque?</div>
-                <a href="/stores.html" class="btn centralize title">Conheça nossas lojas</a>
+            <div class="store">
+                <p class="title centralize">Nossas Lojas</p>
+                <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
+                <a href="/stores.html" class="btn centralize">Conheça nossas lojas</a>
             </div>
         </div>
         <div class="media">
-            <div class="title centralize">Nossas Mídias</div>
-            <div class="content-media centralize">
-                <div class="social-icon">
-                    <div class="title">Nos siga no:</div>
-                    <a class="text centralize" href="https://www.instagram.com/superoticabrasil/">
-                        <img src="/src/img/icons/Instagram-icon.png" alt="instagram-icon">
-                        @superoticabrasil
-                    </a>
-                    <br>
-                    <a class="text centralize" href="https://www.facebook.com/SuperOticaBrasil">
-                        <img src="/src/img/icons/facebook-icon.png" alt="facebook-icon">
-                        facebook.com/SuperOticaBrasil
-                    </a>
-                    <div class="title">Fale com a gente:</div>
-                    <a class="text centralize" href="#">
-                        <img src="/src/img/icons/whatsapp-icon.png" alt="whatsapp-icon">
-                        (61) 9 9999 - 9999
-                    </a>
-                    <br>
-                    <a class="text centralize" href="#">
-                        <img src="/src/img/icons/gmail-icon.png" alt="gmail-icon">
-                        superoticadf@gmail.com
-                    </a>
+            <p class="title centralize">Nossas Mídias</p>
+            <div class="content centralize">
+                <div class="social">
+                    <p class="title centralize">Nos siga no:</p>
+                    <div class="social2 centralize">
+                        <div class="instagram">
+                            <a class="text centralize" href="https://www.instagram.com/superoticabrasil/">
+                                <img src="/src/img/icons/Instagram-icon.png" alt="instagram-icon">
+                            </a>
+                            <p class="text">@superoticabrasil</p>
+                        </div>
+                        <div class="facebook">
+                            <a class="text centralize" href="https://www.facebook.com/SuperOticaBrasil">
+                                <img src="/src/img/icons/facebook-icon.png" alt="facebook-icon">
+                            </a>
+                            <p class="text">facebook.com/SuperOticaBrasil</p>
+                        </div>
+                    </div> 
                 </div>
-                <img class="media-img" src="/src/img/content/woman-phone.png" alt="woman-phone">
+                <div class="contact">
+                    <p class="title centralize">Fale com a gente:</p>
+                    <div class="contact2 centralize">
+                        <div class="whatsapp">
+                            <a class="text centralize" href="/">
+                                <img src="/src/img/icons/whatsapp-icon.png"         alt="whatsapp-icon">
+                            </a>
+                            <p class="text">(61) 9 9999-9999</p>
+                        </div>
+                        <div class="gmail">
+                            <a class="text centralize" href="/">
+                                <img src="/src/img/icons/gmail-icon.png" alt="gmail-icon">
+                            </a>
+                            <p class="text">superoticadf@gmail.com</p>
+                        </div>
+                    </div>
+                </div>
             </div>
-        </div>   
-    </div>
-    <div class="footer sides">
+        </div>
+    </main>
+    <footer>
         <div class="centralize">
             <img src="/src/img/logos/logo-centralizada.png" alt="logo-centralizada">
         </div>
         <p class="text centralize">Copyright 2022 © Todos os direitos reservados | SUPERÓTICA BRASIL</p>
         <p class="text centralize">Desenvolvido por: dev.matheusnunes@gmail.com</p>
-    </div>
+    </footer>
+    <script src="/src/js/mobile-navbar.js"></script>
 </body>
 </html>

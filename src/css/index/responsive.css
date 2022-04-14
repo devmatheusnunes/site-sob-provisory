@@ -1,0 +1,46 @@
+@media (max-width: 1000px) {
+    main .media .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 900px) {
+    main {
+        margin-top: 48vh;
+    }
+    main .media .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 1024px) {
+    main .content {
+        flex-direction: column;
+    }
+    main .media .content {
+        flex-direction: column;
+    }
+}
+
+@media (max-width: 600px) {
+    header img {
+        margin-top: 22.5vh;
+    }
+    main {
+        margin-top: 22.5vh;
+    }
+    main .content {
+        flex-direction: column;
+    }
+    main .media .content {
+        flex-direction: column;
+    }
+
+    main .media .content .social2 {
+        flex-direction: column;
+    }
+
+    main .media .content .contact2 {
+        flex-direction: column;
+    }
+}

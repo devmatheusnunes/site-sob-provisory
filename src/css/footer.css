@@ -1,13 +1,13 @@
-.footer {
+footer {
     margin-top: 8vh;
     padding: 2vh;
 }
 
-.footer img {
+footer img {
     max-width: 40vh;
 }
 
-.footer .text {
+footer .text {
     font-weight: bold;
     color: #180081;
     margin-top: 3vh;
