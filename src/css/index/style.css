@@ -43,3 +43,22 @@ main .media .content {
     margin-top: 8vh;
     justify-content: space-around;
 }
+
+main .media .content .social .instagram img, main .media .content .social .facebook img {
+    margin-top: 2vh;
+}
+
+main .media .content .contact .whatsapp img, main .media .content .contact .gmail img {
+    margin-top: 2vh;
+}
+
+
+main .media .content .social .instagram p, main .media .content .social .facebook p {
+    position: relative;
+    margin-top: -10vh;
+}
+
+main .media .content .contact .whatsapp p, main .media .content .contact .gmail p {
+    margin-top: -10vh;
+}
+
