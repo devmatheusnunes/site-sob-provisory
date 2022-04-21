@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -12,12 +12,16 @@
     <link rel="stylesheet" href="/src/css/menu.css">
     <link rel="stylesheet" href="/src/css/footer.css">
     <!--LINK CSS PAGE-->
-    <link rel="stylesheet" href="/src/css/index/style.css">
+    <link rel="stylesheet" href="/src/css/index/style.css"> 
     <link rel="stylesheet" href="/src/css/index/responsive.css">
+    <link rel="stylesheet" href="/src/css/index/carousel.css">
     <!--LINK FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+    <!--LINK SCRIPT JS-->
+    <script src="/src/js/mobile-navbar.js" defer></script>
+    <script src="/src/js/carousel.js" defer></script>
 </head>
 <body>
     <nav class="menu centralize">
@@ -36,10 +40,21 @@
             <li><a href="/contact.html">Contato</a></li>
         </ul>
     </nav>
-    <header class="centralize">
-        <img src="src/img/logos/logo-horizontal.png" alt="logo-horizontal">
-    </header>
-    <main>
+    <div class="carousel">
+        <div class="container-desktop" id="desktop">
+            <img id="desktop" src="src/img/carousel/desktop/01.png" alt="01">
+            <img id="desktop" src="src/img/carousel/desktop/02.png" alt="02">
+            <img id="desktop" src="src/img/carousel/desktop/03.png" alt="03">
+            <img id="desktop" src="src/img/carousel/desktop/04.png" alt="04">
+        </div>
+        <div class="container-mobile" id="mobile">
+            <img id="mobile" src="src/img/carousel/mobile/01.png" alt="01">
+            <img id="mobile" src="src/img/carousel/mobile/02.png" alt="02">
+            <img id="mobile" src="src/img/carousel/mobile/03.png" alt="03">
+            <img id="mobile" src="src/img/carousel/mobile/04.png" alt="04">
+        </div>
+    </div>
+    <main>           
         <div class="content centralize">
             <div class="about">
                 <p class="title centralize">Quem Somos</p>
@@ -99,6 +114,5 @@
         <p class="text centralize">Copyright 2022 © Todos os direitos reservados | SUPERÓTICA BRASIL</p>
         <p class="text centralize">Desenvolvido por: dev.matheusnunes@gmail.com</p>
     </footer>
-    <script src="/src/js/mobile-navbar.js"></script>
 </body>
 </html>
