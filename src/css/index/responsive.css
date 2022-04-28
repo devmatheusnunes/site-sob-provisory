@@ -51,9 +51,6 @@
     body {
         overflow-x: hidden;
     }
-    header img {
-        margin-top: 22.5vh;
-    }
     main .content, main .media .content, main .media .content .social2, main .media .content .contact2 {
         flex-direction: column;
     }

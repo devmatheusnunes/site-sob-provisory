@@ -1,23 +1,32 @@
-const imgDs = document.getElementById('desktop')
-const imgMs = document.getElementById('mobile')
-const imgD = document.querySelectorAll('#desktop img')
-const imgM = document.querySelectorAll('#mobile img')
+let time = 2000
+    positionDesktopImg = 0
+    positionMobileImg = 0
+    desktopImg = document.querySelectorAll('#desktop img')
+    mobileImg = document.querySelectorAll('#mobile img')
+    maxDesktop = desktopImg.length
+    maxMobile = mobileImg.length
 
-let idBegin = 0
-
-function carousel() {
-    idBegin++;
-
-    if(idBegin > imgD.length - 1){
-        idBegin = 0
-    }
-
-    if(idBegin > imgM.length - 1){
-        idBegin = 0
-    }
-
-    imgDs.style.transform = `translateX(${-idBegin * 100}vw)`
-    imgMs.style.transform = `translateX(${-idBegin * 100}vw)`
+function nextImageDesktop() {
+    desktopImg[positionDesktopImg].classList.remove('selected')
+    positionDesktopImg++
+    if(positionDesktopImg >= maxDesktop)
+        positionDesktopImg = 0
+    desktopImg[positionDesktopImg].classList.add('selected')
 }
 
-setInterval(carousel, 2000)
+function nextImageMobile() {
+    mobileImg[positionMobileImg].classList.remove('selected')
+    positionMobileImg++
+    if(positionMobileImg >= maxMobile)
+        positionMobileImg = 0
+    mobileImg[positionMobileImg].classList.add('selected')
+}
+
+function start() {
+    setInterval(() => {
+        nextImageDesktop()
+        nextImageMobile()
+    }, time)
+}
+
+window.addEventListener('load', start)

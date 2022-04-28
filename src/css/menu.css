@@ -1,12 +1,10 @@
-body {
-    overflow-x: hidden;
-}
 .menu {
+    position: sticky;
+    top: 0;
+    z-index: 1;
     background-color: #180081;
     justify-content: space-between;
     height: 8vh;
-    position: sticky;
-    top: 0;
 }
 .logo img {
     max-width: 50px;
@@ -23,12 +21,10 @@ body {
     margin-left: 1.5vw;
     opacity: 0.6;
 }
-
 .nav-list li:hover {
     opacity: 1;
     transition: 0.3s;
 }
-
 .nav-list li a {
     color: yellow;
     text-decoration: none;
@@ -37,17 +33,14 @@ body {
     font-size: 12px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
-
 .nav-list li a:hover {
     color: #FFFFFF;
     font-weight: bold;
 }
-
 .mobile-menu {
     display: none;
     cursor: pointer;
 }
-
 .mobile-menu div {
     width: 32px;
     height: 2px;
@@ -90,12 +83,10 @@ body {
         margin-right: 2vw;
     }
 }
-
 .nav-list.active {
     transform: translateX(0);
     display: flex;
 }
-
 @keyframes navLinkFade {
     from {
         opacity: 0;
@@ -106,15 +97,12 @@ body {
         transform: translateX(0px);
     }
 }
-
 .mobile-menu.active .line1 {
     transform: rotate(-45deg) translate(-8px, 8px);
 }
-
 .mobile-menu.active .line2 {
     opacity: 0;
 }
-
 .mobile-menu.active .line3 {
     transform: rotate(45deg) translate(-5px, -7px);
 }
