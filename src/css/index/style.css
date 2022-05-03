@@ -1,53 +1,47 @@
 body {
     overflow-x: hidden;
 }
-
-.menu {
-    position: sticky;
-    top: 0;
-}
-
 main {
-    background-color: #f5f5f5;
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
-    margin-left: 2vw;
-    margin-right: 2vw;
 }
-
 main .title {
     text-transform: uppercase;
     font-size: 4vh;
 }
-
 main .text {
     padding: 3vw;
     text-align: justify;
 }
-
-main .about, main .store, main .media {
+main .about, main .store {
     margin-top: 8vh;
     padding: 2vw;
+    background-color: aliceblue;
 }
-
+main .media {
+    padding: 2vw;
+    background-color: aliceblue;
+}
 main .about .btn, main .store .btn {
     text-decoration: none;
     text-transform: uppercase;
 }
-
 main .media a img {
     max-width: 55px;
 }
-
 main .media .content {
     margin-top: 8vh;
     justify-content: space-around;
 }
-
-main .media .content .social .instagram img, main .media .content .social .facebook img, main .media .content .contact .whatsapp img, main .media .content .contact .gmail img {
+main .media .content .social .instagram img,
+main .media .content .social .facebook img, 
+main .media .content .contact .whatsapp img, 
+main .media .content .contact .gmail img {
     margin-top: 2vh;
 }
-
-main .media .content .social .instagram p, main .media .content .social .facebook p, main .media .content .contact .whatsapp p, main .media .content .contact .gmail p {
+main .media .content .social .instagram p, 
+main .media .content .social .facebook p, 
+ain .media .content .contact .whatsapp p, 
+main .media .content .contact .gmail p {
     margin-top: -10vh;
 }

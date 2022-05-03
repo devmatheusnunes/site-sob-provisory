@@ -1,9 +1,10 @@
 footer {
     margin-top: 8vh;
-    padding: 2vh;
+    background-image: url(/src/img/backgrounds/background-2.png);
 }
 
 footer img {
+    margin-top: 2vh;
     max-width: 20vw;
 }
 
