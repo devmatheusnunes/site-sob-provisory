@@ -1,47 +1,69 @@
 body {
     overflow-x: hidden;
 }
+
 main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
 }
+
 main .title {
     text-transform: uppercase;
     font-size: 4vh;
 }
+
 main .text {
     padding: 3vw;
     text-align: justify;
 }
-main .about, main .store {
+
+main .about, 
+main .store {
     margin-top: 8vh;
     padding: 2vw;
     background-color: aliceblue;
 }
+
 main .media {
     padding: 2vw;
     background-color: aliceblue;
 }
-main .about .btn, main .store .btn {
+
+main .content .about .title, 
+main .content .store .title, 
+main .media .title {
+    margin-top: 80px;
+}
+
+main .about .btn, 
+main .store .btn {
     text-decoration: none;
     text-transform: uppercase;
 }
+
+main .media .content .social .title {
+    margin-top: 0vh;
+}
+
+main .media .content .contact .title {
+    margin-top: 0vh;
+}
+
 main .media a img {
     max-width: 55px;
 }
+
 main .media .content {
     margin-top: 8vh;
     justify-content: space-around;
 }
+
 main .media .content .social .instagram img,
-main .media .content .social .facebook img, 
+main .media .content .social .facebook img {
+    margin-top: 0vh;
+}
+
 main .media .content .contact .whatsapp img, 
 main .media .content .contact .gmail img {
-    margin-top: 2vh;
-}
-main .media .content .social .instagram p, 
-main .media .content .social .facebook p, 
-ain .media .content .contact .whatsapp p, 
-main .media .content .contact .gmail p {
-    margin-top: -10vh;
+    margin-top: 0vh;
 }
