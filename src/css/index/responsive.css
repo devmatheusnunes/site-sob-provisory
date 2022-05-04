@@ -47,7 +47,7 @@
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
-    }
+    } 
     main .media .content .social .title, main .media .content .contact .title {
         font-size: 2.8vh;
     }
