@@ -1,0 +1,57 @@
+@media (max-width: 900px) {
+    main h1 {
+        padding-top: 5vh;
+        font-size: 40px;
+    }
+
+    main .card-1 .store,
+    main .card-2 .store {
+        flex-direction: column;
+    }
+
+    main .card-2 .store .container {
+        margin-bottom: 5vh;
+    }
+
+    main .card-1 h2,
+    main .card-2 h2 {
+        font-size: 35px;
+    }
+
+    main .card-1 .store #desktop1, 
+    main .card-2 .store #desktop2 {
+        height: 350px;
+        width: 600px;
+        margin-top: 4vh;
+    }
+
+    main .card-1 .store .container h3,
+    main .card-2 .store .container h3 {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-left: 0;
+        margin-top: -4vh;
+        font-size: 30px;
+    }
+
+    main .card-1 .store .container h5,
+    main .card-2 .store .container h5 {
+    font-size: 18px;
+    }   
+}
+
+@media (max-width: 600px) {
+    main h1 {
+        padding-top: 5vh;
+        font-size: 28px;
+        text-align: center;
+    }
+
+    main .card-1 .store #desktop1, 
+    main .card-2 .store #desktop2 {
+        height: 250px;
+        width: 90vw;
+        margin-top: 4vh;
+    }
+}
