@@ -5,6 +5,7 @@ body {
 main {
     border-bottom-left-radius: 10px;
     border-bottom-right-radius: 10px;
+    box-shadow: 5px 10px 18px #636363;
 }
 
 main .title {
@@ -15,6 +16,8 @@ main .title {
 main .text {
     padding: 3vw;
     text-align: justify;
+    box-shadow: 5px 10px 18px #636363;
+    border-radius: 10px;
 }
 
 main .about, 
@@ -67,6 +70,9 @@ main .media .content .contact .title {
 
 main .media a img {
     max-width: 70px;
+    padding: 0.3vw;
+    margin-left: 25px;
+    margin-right: 25px;
 }
 
 main .media .content {

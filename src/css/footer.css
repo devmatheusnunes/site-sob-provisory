@@ -1,6 +1,11 @@
 footer {
     margin-top: 8vh;
-    background-image: url(/src/img/backgrounds/background-2.png);
+    background-color: #FECF16;
+}
+
+footer .social img {
+    width: 2.5vw;
+    margin: 2vh;
 }
 
 footer img {
