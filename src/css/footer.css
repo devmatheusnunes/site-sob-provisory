@@ -33,6 +33,10 @@ footer .text {
 }
 
 @media (max-width: 600px) {
+    footer .social img {
+        width: 8vw;
+    }
+
     footer img {
         max-width: 50vw;
     }
