@@ -7,40 +7,58 @@
     <link rel="shortcut icon" href="logo-emblema-blue.png">
     <title>SuperÓtica Brasil</title>
     <!--LINK CSS GERAL-->
-    <link rel="stylesheet" href="/src/css/template.css">
-    <link rel="stylesheet" href="/src/css/menu.css">  
+    <link rel="stylesheet" href="/src/css/template.css">  
     <link rel="stylesheet" href="/src/css/footer.css">
+    <link rel="stylesheet" href="/src/css/menu.css">
     <!--LINK CSS PAGE-->
     <link rel="stylesheet" href="/src/css/index/carousel.css">
     <link rel="stylesheet" href="/src/css/index/style.css">
     <link rel="stylesheet" href="/src/css/index/responsive.css">
-    
     <!--LINK FONTS-->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Prosto+One&display=swap" rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ubuntu&display=swap" rel="stylesheet">
     <!--LINK SCRIPT JS-->
-    <script src="/src/js/carousel.js" defer></script>
     <script src="/src/js/mobile-navbar.js" defer></script>
+    <script src="/src/js/carousel.js" defer></script>
 </head>
 <body>
-    <nav class="menu centralize">
-        <a class="logo" href="/">
-            <img src="/src/img/logos/logo-emblema-yellow.png" alt="logo-emblema-yellow">
-        </a>
-        <div class="mobile-menu">
-            <div class="line1"></div>
-            <div class="line2"></div>
-            <div class="line3"></div>
+    <nav>
+        <div class="menu-up centralize sides">
+            <a href="/">
+                <img class="logo-horizon" src="/src/img/logos/logo-horizontal.png" alt="logo-horizontal">
+                <img class="logo" src="/src/img/logos/logo-emblema-blue.png" alt="logo-emblema-blue">
+            </a>
+
+            <div class="mobile-menu">
+                <div class="line1"></div>
+                <div class="line2"></div>
+                <div class="line3"></div>
+            </div>
+
+            <div class="social-up centralize">
+                <a class="centralize" href="https://www.instagram.com/superoticabrasil/">
+                    <img src="/src/img/icons/instagram-outline.png" alt="instagram-outline">
+                </a>
+                <a class="centralize" href="https://www.facebook.com/SuperOticaBrasil">
+                    <img src="/src/img/icons/facebook-outline.png" alt="facebook-outline">
+                </a>
+                <a class="whatsapp centralize" href="/">
+                    <img src="/src/img/icons/whatsapp-outline.png" alt="whatsapp-outline">
+                </a>
+            </div>
         </div>
-        <ul class="nav-list">
-            <li><a href="/">Home</a></li>
-            <li><a href="/about.html">Sobre</a></li>
-            <li><a href="/stores.html">Lojas</a></li>
+        <ul class="nav-list centralize">
+            <li class="home"><a href="/">home</a></li>
+            <li><a href="/about.html">sobre</a></li>
+            <li class="stores"><a href="/stores.html">lojas</a></li>
             <!--<li><a href="/contact.html">Contato</a></li>-->
         </ul>
     </nav>
-
     <header>
         <div id="desktop">
             <img class="selected" src="/src/img/carousel/desktop/1.png" alt="1">
@@ -55,9 +73,20 @@
             <img src="/src/img/carousel/mobile/4.png" alt="4">
         </div>
     </header>
+    <main>
+        <div class="lenses">
+            <div class="lenses-img centralize sides">
+                <img src="/src/img/lenses/essilor-logo.svg" alt="essilor-logo">
+                <img src="/src/img/lenses/hoya-logo.svg" alt="hoya-logo">
+                <img src="/src/img/lenses/kodaklens-logo.svg" alt="kodaklens-logo">
+                <img src="/src/img/lenses/varilux-logo.svg" alt="varilux-logo">
+                <img src="/src/img/lenses/zeiss-logo.svg" alt="zeiss-logo">
+                <!--<img src="" alt="">-->
+            </div>
+            <p class="centralize">trabalhamos com as melhores marcas nacionais e importadas</p>
+        </div>
 
-    <main>           
-        <div class="content centralize">
+        <div class="content centralize sides">
             <div class="about">
                 <p class="title centralize">Quem Somos</p>
                 <p class="text">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown</p>
@@ -73,7 +102,8 @@
                 </div>
             </div>
         </div>
-        <div class="media">
+
+        <div class="media sides">
             <p class="title centralize">Nossas Mídias</p>
             <div class="content centralize">
                 <div class="social">

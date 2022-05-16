@@ -1,0 +1,13 @@
+<svg version="1.2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 193 45" width="193" height="45">
+	<title>hoya-logo-svg</title>
+	<defs>
+		<image  width="188" height="43" id="img1" href="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALwAAAArCAMAAAD19BJiAAAAAXNSR0IB2cksfwAAAGBQTFRFI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myI2myr3T+oQAAACB0Uk5TACBfj7/P/9+fbzDAgH9QQBDwr++gYOCwkHDQTw8/Hy8o1BuDAAAEMElEQVR4nLVZbaOyIAxNM7PMIs3yVnb//798nkr2wjYL6+5TTRiHMc4GzGZflSSdZ4s8z5dZsVp/1/QbUuaDlPLbxn/L9b5JtcypLOccP9jOt0pvtL6hNkGb/SX4pMilZDvSwu1hWk52hz5sZBwzT/4MvNOg36UmY25V5z4l85/2DGSDlg5/BX7HA4ZK02Kzg+lGnFdL1S219NL108CzMYQU0M4dvS6IYAeTPzH9gtqRy/UN8FbISPQ70PE923n1nu2GHTPTyJ3yOfgfDrUpy7LhqkLaYHt2DS13zPIQZt7az/fBs5jJ2mdkuvZA1RjIZ6/qiIlMUyIDZUNQLb8OPiFeziixJzVBD1GSAF9iW5j+mQeGH7Dylthm/gZ48Fqer4IOZE3QaRBksGcdTD9Iyl5/qYYfiy+DJwBT0WONq4JUcfIq78dOtuGmr73/xbfEx+CR4CV2St9IFZBoB9XaGtLz5ALXYLxGiAWPjq9VexV8R6oAAnxuTx93+yAJwaQqQsajiSoWPMSAQcIYzyReIU7uMQ57IKzWgK5uZL6jNUIkeAeqQrZ/CLoeneY8X2ZkdqegI5h+hMpSWnkN3vX/Ja0egrzS90NzjOmbYRCnR1IMREQL/j2GKweuSpkPxmoEAL+cZxmrLIQsshrnY+cPaELX0sdKA7MXPAK+vt7/QcU8UiO4cby2WFFDfMYC0TvJB00XdmsDy5Dx1ETl+qq2C9uXsqyr/qrZvUALqsVE+5Cz6AYLdnn+T1Uzd1mvig9w0xmsfkPbkGB4RbRlHcV5F3YFYAXaoq5P0jqoAT+cQJGyzWuAn9HCTZaL8HXuNUD1dqKKpEqoEcOy5jV4PJgoYyFHgSOssnk6eGhemeBT2Ss0J9HAN5LagEvCjDAVPCRYvTi4y9yyOAYediBZ0RW0txJVJHhQNSZ402Ej4LFiIgSGoWTVCJHg8ZDZy/YPuUGLcFeOgAeebDIiyCtGoootzICuY2qbV+Bxbxpi1Aix4JHwBME/5AruEnnIBs+Ov5oYNUIseIwbnX7xHCu43ASPwW2KfpiNPknh7elc9iAMsRfOMsGT+0lL9DowGjy5F5JcjxyvJFET/DuViur6+NsDEqAFr8yu5CZNVl4m+PG7w0HUII0HT9J83tAqISUe3CsvDRZ4vC8WXci8tBphwo3Zmla3TZ32t9mtvxSs2tNW2QCPPKnkIhxKqxGm3FXy61BN1Ag1wGMYjq6WViNMuiXe8pPFe9gN8MiTR6UPvp9o6zLtfn5N4l7I3ihhdfD60xTICe3KRDXxZcR1uSWldWLWweMuV2tHEqJycpMf1Ha684/2xa4KHvlEIde74DCyRvjgKbPFZPsGdAM83g0ZXQlbihZdOYi4i7ij82LA2XVnirzTnls1c0grCeisaHPY4vXzYKS47WZzKE+bzfb1s+nH8g+8PWkYahn3jQAAAABJRU5ErkJggg=="/>
+	</defs>
+	<style>
+		.s0 { fill: none } 
+	</style>
+	<g id="Layer">
+		<path id="Layer" class="s0" d="m0-74h192.8v192.8h-192.8z"/>
+		<use id="Layer" href="#img1" x="2" y="1"/>
+	</g>
+</svg>

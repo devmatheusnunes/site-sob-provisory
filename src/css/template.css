@@ -20,6 +20,12 @@ body {
     justify-content: center;
 }
 
+.sides {
+    max-width: 980px;
+    margin: 0 auto;
+}
+
+
 .title {
     color: #180081;
 }

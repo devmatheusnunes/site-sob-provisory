@@ -1,4 +1,3 @@
-
 @media (max-width: 1024px) {
     body {
         overflow-x: hidden;
@@ -47,6 +46,10 @@
 @media (max-width: 600px) {
     body {
         overflow-x: hidden;
+    }
+    main .lenses .lenses-img img {
+        max-width: 20vw;
+        max-height: 6vh;
     } 
     main .media .content .social .title, main .media .content .contact .title {
         font-size: 2.8vh;
